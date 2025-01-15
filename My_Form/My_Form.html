@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+</head>
+<body style="background-color: rgb(215, 212, 212);" >
+    <header>
+    <h1 style="text-align: center; font-size:20px;"><span style="border:2px solid; padding: 3px; border-radius: 5px; background-color: rgb(248, 250, 238);">School Admission Form</span></h1>
+    <br/>
+    <br/>
+    <p style="margin-left: 700px;"><img src="logo1.png" style="width:700px; height: 500px;"/></p>
+    </header>
+    <form autocomplete="on" style="margin-top: -515px;">
+        <fieldset>  
+            <legend>
+                <label for="Name">Student Name<span style="color:red;">*</span></label>
+                <input type="text" id="Name" name="Student" value="" placeholder="First Name" required style="margin-left:150px;"/>
+                <input type="text" id="Name1" name="Student" value="" placeholder="Last Name"/>
+                <br/>
+                <br/>
+                <label for="Class">Class you want to apply for<span style="color:red;">*</span></label>
+                <input type="text" id="Class" name="Class" value="" required style="margin-left: 65px; width:335px;"/>
+                <br/>
+                <br/>
+                <label for="date">Student's DoB<span style="color:red;">*</span></label>
+                <input type="date" id="date" name="date" value="" placeholder="MM/DD/YYYY" required style="margin-left:150px;"/>
+                <br/>
+                <br/>
+                <label>Gender</label>
+                <input name="gender" id="male" type="radio" style="margin-left: 202px;">Male</input>
+                <input name="gender" id="female" type="radio" style="margin-left: 25px;">Female</input>
+                <br/>
+                <br/>
+                <label>Caretaker</label>
+                <input name="Caretaker" id="CT" type="radio" style="margin-left: 187px;">Parent</input>
+                <input name="Caretaker" id="CT1" type="radio" style="margin-left: 17px;">Guardian</input>
+                <br/>
+                <br/>
+                <label for="Parent">Parent/Guardian Name<span style="color:red;">*</span></label>
+                <input type="text" id="Parent" name="Student" value="" placeholder="First Name" required style="margin-left:95px;"/>
+                <input type="text" id="Parent1" name="Student" value="" placeholder="Last Name"/>
+                <br/>
+                <br/>
+                <label for="St1">Current Address</label>
+                <input type="text" id="St1" name="St1" value="" placeholder="Street Address" style="margin-left:145px; width:335px;"/>
+                <br/>
+                <br/>
+                <input type="text" id="St2" name="St2" value="" placeholder="Street Address Line 2" style="margin-left:255px;  width:335px;"/>
+                <br/>
+                <br/>
+                <input type="text" id="City" name="City" value="" placeholder="City" style="margin-left:255px; width:335px;"/>
+                <br/>
+                <br/>
+                <input type="text" id="State" name="State" value="" placeholder="State" style="margin-left:255px; width:335px;"/>
+                <br/>
+                <br/>
+                <input type="number" id="zip" name="Zip" value="" placeholder="Zip code" style="margin-left:255px; width:335px;"/>
+                <br/>
+                <br/>
+                <select name="Country" id="Country" style="margin-left:255px; width:345px;">
+                    <option value="Cnt" disabled selected hidden>Country</option>
+                    <option value="India">India</option>
+                    <option value="Germany">Germany</option>
+                    <option value="USA">USA</option>
+                </select>
+                <br/>
+                <br/>
+                <label for="phnum">Phone Number</label>
+                <input type="number" id="phnum" placeholder="Phone Number" value="" minlength="10" maxlength="10" min="10" max="10" style="width:338px; margin-left: 155px;"/>
+                <br/>
+                <br/>
+                <label for="mail">email<span style="color:red;">*</span></label>
+                <input type="email" id="mail" name="mail" value="" placeholder="eg:sandhya@gmail.com" required style="margin-left:208px; width:338px;"/>
+                <br/>
+                <br/>
+                <label>Upload Application</label>
+                <input type="file" value="" id="upload" name="upload" accept=".pdf, .doc, .docx" style="margin-left: 125px;"/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <input type="submit" value="Enter" style="width:100px; background-color: rgb(248, 250, 238); font-weight: bold; height: 30px; margin-left: 150px; border-radius: 20%;"/>
+                <input type="reset" value="Clear All!" style="width:100px; background-color: rgb(248, 250, 238); font-weight: bold; height: 30px; margin-left: 30px; border-radius: 20%;"/>
+                
+            </legend>
+        </fieldset>
+
+
+</form>
+
+
+</body>
+</html>

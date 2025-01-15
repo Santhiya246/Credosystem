@@ -1,0 +1,27 @@
+h1.head1{
+    color:black;
+}
+h1.head2{
+    font-size: 25px;
+
+}
+div.box1{
+    border: 2px solid; margin-top: -340px;
+    width: 70%;padding-left: 10px;border-style: dotted;border-radius: 15px;
+}
+table{
+    border-collapse: collapse;
+    width:71%;text-align: center;
+}
+th{
+    background-color: rgb(192, 195, 185);color: black;border:1px solid black;padding: 5px;
+}
+td{
+    background-color: rgb(192, 195, 185);
+    padding: 5px;
+}
+li{text-align: justify;}
+div.sign{
+margin-top:-100px;
+
+}

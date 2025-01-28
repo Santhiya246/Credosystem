@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design</title>
+    <style>
+        .container{
+            display: flex;
+            width: 100%;
+        }
+        .main{
+            display: inline-block;
+            width: 15%;
+            height: 200px;
+            margin: 10px;
+            border: 2px solid black;
+            background-color: aquamarine;
+            text-align: center;
+        }
+        @media (min-width:320px) and (max-width:567px) 
+        {
+            .container{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .main{
+            display: inline-block;
+            width: 40%;
+            background-color: yellow;
+            height: 100px;
+            margin: 10px;
+            border: 2px solid black;
+        }
+    }
+    @media (min-width:568px) and (max-width:768px) 
+        {
+            .container{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .main{
+            display: inline-block;
+            width: 30%;
+            background-color: lightgreen;
+            height: 150px;
+            margin: 10px;
+            border: 2px solid black;
+        }
+    }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">Responsive Design using media query</h1>
+<div class="container">
+<div class="main">BOX-1</div>
+<div class="main">BOX-2</div>
+<div class="main">BOX-3</div>
+<div class="main">BOX-4</div>
+<div class="main">BOX-5</div>
+<div class="main">BOX-6</div>
+</div>
+</body>
+</html>

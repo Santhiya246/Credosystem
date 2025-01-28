@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Frame Movement</title>
+    <style>
+        @keyframes movement{
+            0% {transform: translatey(0px);}
+            50% {transform: translatey(300px);}
+        }
+        .main{
+            display: inline-block;
+            width: 15%;
+            height: 200px;
+            background: yellowgreen;
+            animation: movement;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        .main1{
+            display: inline-block;
+            width: 15%;
+            height: 200px;
+            background: purple;
+            animation-name: movement;
+            animation-duration: 5s;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+        }
+        .main2{
+            display: inline-block;
+            width: 15%;
+            height: 200px;
+            background: orange;
+            animation-name: movement;
+            animation-duration: 5s;
+            animation-delay:2s;
+            animation-iteration-count: infinite;
+        }
+        .main3{
+            display: inline-block;
+            width: 15%;
+            height: 200px;
+            background: lightgreen;
+            animation-name: movement;
+            animation-duration: 5s;
+            animation-delay:3s;
+            animation-iteration-count: infinite;
+        }
+        .main4{
+            display: inline-block;
+            width: 15%;
+            height: 200px;
+            background: blue;
+            animation-name: movement;
+            animation-duration: 5s;
+            animation-delay:4s;
+            animation-iteration-count: infinite;
+        }
+        .main5{
+            display: inline-block;
+            width: 15%;
+            height: 200px;
+            background: yellow;
+            animation-name: movement;
+            animation-duration: 5s;
+            animation-delay: 5s;
+            animation-iteration-count: infinite;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">Key Frame Movement</h1>
+<div style="text-align: center; background-color: wheat;height: 500px;border-radius: 50px;">
+<div class="main">BOX-1</div>
+<div class="main1">BOX-2</div>
+<div class="main2">BOX-3</div>
+<div class="main3">BOX-4</div>
+<div class="main4">BOX-5</div>
+<div class="main5">BOX-6</div>
+</div>
+</body>
+</html>

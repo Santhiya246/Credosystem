@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Portfolio</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        html
+        {
+            scroll-behavior: smooth;
+        }
+        a.sbox:hover {
+            color: #20c997;
+            }
+        a.sbox:active {
+            color: #20c997;
+            }
+        a.sbox {
+            color:#fff;
+            text-decoration: none;
+            }
+        div.box1{
+            background-color: #000;
+            color: #fff;
+            width:20%;
+            position: fixed;
+            padding-bottom: 70px;
+            }
+        div.boxtwo{
+            width:80%;
+            height: 500px;
+            margin-left: 20%;
+            padding-bottom: 250px;
+            background-image: url(port_img1.jpg);
+            opacity:0.9;
+        }
+        div.para1{
+            text-align: center;
+            padding-top: 30px;
+                       
+        }
+        .climage
+        {
+            border-radius: 100px; 
+            border: 8px solid rgb(65, 63, 63);
+        }
+        p.ol1{
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        p.para2{
+            text-align: center;
+            padding-bottom:30px;
+            font-size: 25px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .olist{
+            display: flex;
+            align-items: center;
+            margin-left:30px;
+            padding-top:40px;
+        }
+        div.boxtwo p{
+            text-align: center;
+            margin:0px;
+            box-shadow: 10px;
+        }
+        div p.para3{
+            padding-top: 220px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 28px;
+            color: #fff;
+        }
+        div p.para4{
+            /* padding-top: 25px; */
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 55px;
+            color: #fff;
+        }
+
+        .text-typing p.para4 { 
+            margin-top: 20px; 
+            margin-left:33%;
+            text-align: left;
+            white-space: nowrap; 
+            clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0); 
+            animation:  
+typing 8s steps(22, end) forwards, blink 3s;
+/* animation-iteration-count: infinite;  */
+        } 
+  
+        @keyframes typing { 
+            0% { 
+                width: 0% 
+            } 
+  
+            50% { 
+                width: 50% 
+            } 
+        } 
+  
+        @keyframes blink { 
+  
+            0%, 
+            100% { 
+                border-right: 10px solid white; 
+            } 
+  
+            50% { 
+                border-right: 10px solid #222; 
+            } 
+        } 
+
+
+        .text-typing p.para5 { 
+            margin-top: 20px; 
+            margin-left:27%;
+            text-align: left;
+            white-space: nowrap; 
+            clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0); 
+            animation:  
+typing1 8s steps(22, end) forwards, blink1 4s; 
+/* animation-iteration-count: infinite;  */
+        } 
+  
+        @keyframes typing1 { 
+            0% { 
+                width: 0% 
+                
+            } 
+  
+            50% { 
+                width: 50% 
+            } 
+        } 
+  
+        @keyframes blink1 { 
+  
+            0%, 
+            100% { 
+                border-right: 10px solid white; 
+            } 
+  
+            50% { 
+                border-right: 10px solid #222; 
+            } 
+        } 
+
+
+
+
+
+
+        div p.para5{
+            padding-top: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 55px;
+            color: #fff;
+        }
+        div p.para6{
+            padding-top: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 25px;
+            color: #fff;
+        }
+        div p.para7{
+            padding-top: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 25px;
+            color: #fff;
+            margin-top:20px;
+        }
+        .para7 .hire{
+            border:2px solid #20c997;
+            padding: 5px 30px;
+            border-radius: 20px;
+            color: #20c997;
+        }
+        .para7 .hire:hover{
+            background-color: #20c997;
+            color: #fff;
+            
+        }
+        .olist li
+        {
+            padding-right:25px;
+        }
+        .mainbox{
+            width: 80%;
+            height: 760px;
+            margin-left: 20%;
+            background-color: #e9ede6;
+        }
+        .knowmebox1{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+            padding: 60px 0px;
+        }
+        .stylehead1{
+            text-shadow: 20px 30px 3px gray;
+        }
+        .knowmecombine{
+            display: flex;
+            align-items: center;
+            gap: 50px 20px;
+            justify-content: center;
+        }
+        .knowmebox2{
+            text-align: left;
+            width: 70%;
+            padding-left: 20px;
+        }
+        .knowmebox3{
+            text-align: left;
+            width: 25%;
+        }
+        .para8{
+            font-weight: 900;
+            font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+            font-size: 24px;
+        }
+        .para9{
+            font-size: 18px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            line-height: 32px;
+        }
+        .clrstyle{
+            color: #20c997;
+            font-weight: 600px;
+        }
+        .olist1{
+            list-style-type: none;
+            padding: 0px;
+        }
+        .stylelist1{
+            padding: 15px 0px;
+            border-bottom: 1px dotted gray;
+            font-size: 18px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .stylelist2{
+            padding: 15px 0px;
+            font-size: 18px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .knowmebox4{
+            width: 20%;
+            height: 200px;
+            border-right: 1px dotted gray;
+            align-content: center;
+        }
+        .knowmebox5{
+            width: 20%;
+            height: 200px;
+            border-right: 1px dotted gray;
+            align-content: center;
+        }
+        .knowmebox6{
+            width: 20%;
+            height: 200px;
+            border-right: 1px dotted gray;
+            align-content: center;
+        }
+        .knowmebox7{
+            width: 20%;
+            height: 200px;
+            align-content: center;
+        }
+        .knowmecombine1{
+            display: flex;
+            justify-content: center;
+        }
+        p.para11{
+            text-align: center;
+            font-weight: 700;
+            font-size: 45px;
+            margin: 2px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            line-height: 50px;
+            color: grey;
+        }
+        p.para12{
+            text-align: center;
+            font-weight: 500;
+            font-size: 20px;
+            margin: 2px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            line-height: 50px;
+        }
+        .mainbox1{
+            width: 80%;
+            height: 760px;
+            margin-left: 20%;
+            background-color: #e9ede69c;
+        }
+        .servicebox1{
+            text-align: left;
+            width: 50%;
+            padding-left: 10%;
+        }
+        .servicecombine{
+            display: flex;
+            align-items: center;
+            gap: 50px 20px;
+            justify-content: center;
+        }
+        .para13{
+            font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        .para10{
+            font-size: 18px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            line-height: 32px;
+            margin: 0px 0px 10px 0px;
+        }
+         .servicecombine1{
+            display: flex;
+            align-items: center;
+            gap: 0px 30px;
+            justify-content: center;
+         }
+         .styleimg1{
+            margin: 0px;
+            background-color: #fff;
+            padding: 5px 5px 0px 5px;
+            border-radius: 10px;
+            box-shadow: 2px 4px 6px gray;
+         }
+         .mainbox2{
+            width: 80%;
+            height: 1520px;
+            margin-left: 20%;
+            background-color: #e9ede6;
+        }
+        .resumecombine{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .resumehead1{
+            text-align: left;
+            width: 50%;
+            padding-left: 3%;
+            font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+            font-size: 26px;
+            height: 80px;
+        }
+        .resumehead1.headtwo{
+            padding-left: 0px;
+        }
+        .resumebox1{
+            width: 43%;
+            height: 230px;
+            border: 1px solid gray;
+            border-style: dotted;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 15px 33px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 15px;
+        }
+        .resumebox1 p,h3{
+            padding: 5px 40px;
+        }
+        .resumebox1 .para1{
+            background-color: #20c997;
+            padding: 5px;
+            border-radius: 5px;
+            color: #fff;
+        }
+        .resumebox1 .para2{
+            color:rgb(238, 106, 106);
+        }
+        .percentage{
+            width: 88%;
+            height:8px;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 15px 33px;
+            background: linear-gradient(to right, #20c997 65%, rgb(216, 212, 212) 35%);
+        }
+        .percentage1{
+            width: 33%;
+            height: 20px;
+            display: inline-block;
+            margin: 0px 40px;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .percentage1.per2{
+            text-align: right;
+        }
+        .perclosediv{
+            display: inline-block;
+            width: 49%;
+        }
+        .range1{
+            background: linear-gradient(to right, #20c997 65%, rgb(216, 212, 212) 35%);
+        }
+        .range2{
+            background: linear-gradient(to right, #20c997 70%, rgb(216, 212, 212) 30%);
+        }
+        .range3{
+            background: linear-gradient(to right, #20c997 95%, rgb(216, 212, 212) 5%);
+        }
+        .range4{
+            background: linear-gradient(to right, #20c997 60%, rgb(216, 212, 212) 40%);
+        }
+        .range5{
+            background: linear-gradient(to right, #20c997 80%, rgb(216, 212, 212) 20%);
+        }
+        .range6{
+            background: linear-gradient(to right, #20c997 99%, rgb(216, 212, 212) 1%);
+        }
+        .extrapara7{
+            text-align: center;
+        }
+        .extrahire{
+            background-color: #f8f3f3;
+        }
+        /* .clientspeakcombine{
+            text-align: center;
+        }
+        .clientspeak{
+            height: 200px;
+            width: 43%;
+            margin: 20px; 
+            border-radius: 5px;
+            background-color: rgb(234, 238, 236);
+            display: inline-flex;
+        }
+        .clientspeak.speakbox3{
+            margin-left: 28%;
+        } */
+        .checked {
+        color: orange;
+        }
+        /* .cshead{
+            width: 43%;
+            margin: 0px auto;
+            height: 10px;
+        } */
+        .getintouchcombine{
+            display: flex;
+            align-items: center;
+            gap: 50px 20px;
+            justify-content: center;
+        }
+        .getintouchbox1{
+            font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+            width: 25%;
+        }
+        .getintouchbox1 p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 18px;
+            line-height: 35px;
+        }
+        .olist.getintoucholist{
+            padding: 0px;
+        }
+        .olist.getintoucholist img{
+            background-color:#e9ede6;
+        }
+        .getintouchbox2{
+            font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+            font-size: 26px;
+            width: 60%;
+        }
+        .typetext{
+            height: 50px;
+            width: 350px;
+            border-radius: 5px;
+            background-color: #fafbf99c;
+        }
+
+        input.typetext::placeholder {
+            font-size: 18px;
+        }
+
+        .textarea{
+            height: 150px;
+            width: 712px;
+            border-radius: 5px;
+            margin-top: 10px;
+            background-color: #fafbf99c;
+        }
+        .textarea::placeholder {
+            font-size: 18px;
+        }
+        .hire.sendmessage{
+            border:2px solid #20c997;
+            padding: 5px 30px;
+            border-radius: 20px;
+            color: #fff;
+            background-color: #20c997;
+        }
+        .hire.sendmessage:hover{
+            border:2px solid #1baa80;
+            background-color: #1baa80;
+            color: #fff;
+        }
+        .align-center{
+            text-align: center;
+        }
+        .inherit
+        {
+            color:inherit;
+            text-decoration: none;
+        }
+        
+
+
+
+
+    </style>
+</head>
+<body>
+        <div class="box1">
+        <div class="para1"><img src="My_photo1.jpg" alt="My photo" height="150px" width="150px" title="I'm Santhiya" class="climage"/>
+        </div>
+        <p Class="para2">Santhiya Dilip</p>
+        <p class="ol1"><a class="sbox" href="#Homepage">Home</a></p>
+        <p class="ol1"><a class="sbox" href="#Aboutmepage">About Me</a></p>
+        <p class="ol1"><a class="sbox" href="#Servicespage">What I Do</a></p>
+        <p class="ol1"><a class="sbox" href="#Resumepage">Resume</a></p>
+        <p class="ol1"><a class="sbox" href="#Homepage">Portfolio</a></p>
+        <p class="ol1"><a class="sbox" href="#Clientspeakpage">Testimonial</a></p>
+        <p class="ol1"><a class="sbox" href="#Contactpage">Contact</a></p>
+        <ul style="list-style-type: none;" class="olist">
+            <li><a href="https://www.facebook.com/" target="_blank"><img src="fb.png" alt="Facebook Logo" title="Facebook"></a></li>
+            <li><a href="https://x.com/i/flow/login" target="_blank"><img src="twit.png" alt="Twitter Logo" title="Twitter"></a></li>
+            <li><a href="https://www.whatsapp.com/" target="_blank"><img src="watsapp.png" alt="Whatsapp Logo" title="Whatsapp"></a></li>
+            <li><a href="https://github.com/" target="_blank"><img src="git.png" alt="Github Logo" title="Github"></a></li>
+        </ul>
+    </div>
+    <div class="boxtwo" id="Homepage">
+        <p class="para3">Welcome</p>
+       
+        <div class="text-typing"> 
+            <p Class="para4">I'm Santhiya Dilip</p>
+           
+        </div>
+
+        <div class="text-typing"> 
+            <p class="para5">I'm Frontend Developer</p>
+        </div>
+
+
+
+        <!-- <p Class="para4">I'm Santhiya Dilip</p> -->
+        <!-- <p class="para5">I'm Frontend Developer</p> -->
+        <p class="para6">based in Tamilnadu, Chennai.</p>
+        <p class="para7"><span class="hire"><a class="inherit" href="#Contactpage">Hire Me</a></span></p>
+    </div>
+    
+<div class="mainbox" id="Aboutmepage">
+    <div class="knowmebox1">
+        <h1 class="stylehead1">About Me</h1>
+    </div>
+    <div class="knowmecombine">
+    <div class="knowmebox2">
+        <p class="para8">I'm <Span class="clrstyle">Santhiya Dilp</Span>, a Frontend Developer</p>
+        <p class="para9">Creative and detail-oriented Front-End Developer with 2+ years of experience building responsive, user-friendly websites using HTML, CSS, JavaScript, and modern frameworks. Passionate about delivering high-quality code and seamless user experiences, while staying current with industry trends and technologies</p>
+        <p class="para9">I thrive in collaborative environments, working closely with cross-functional teams to bring designs to life while focusing on seamless user experiences. Constantly learning and adapting to emerging technologies, I am dedicated to delivering high-quality solutions that meet user needs and exceed expectations.
+
+        </p>
+    </div>
+    <div class="knowmebox3">
+        <ul class="olist1">
+            <li class="stylelist1"><b>Name:</b> Santhiya Dilip</li>
+            <li class="stylelist1"><b>Email:</b><span class="clrstyle"> <a class="inherit" href="mailto:sandhyavel624@gmail.com">sandhyavel624@gmail.com</a></span></li>
+            <li class="stylelist1"><b>Age:</b> 33</li>
+            <li class="stylelist2"><b>From:</b> Tamilnadu, Chennai.</li>
+        </ul>
+    </div>
+    </div>
+    <div class="knowmecombine1">
+    <div class="knowmebox4">
+        <p class="para11">2+</p>
+        <p class="para12">Years Experience</p>
+    </div>
+    <div class="knowmebox5">
+        <p class="para11">15+</p>
+        <p class="para12">Happy Clients</p>
+    </div>
+    <div class="knowmebox6">
+        <p class="para11">35+</p>
+        <p class="para12">Projects Done</p>
+    </div>
+    <div class="knowmebox7">
+        <p class="para11">4+</p>
+        <p class="para12">Get Awards</p>
+    </div>
+    </div>
+</div>
+<div class="mainbox1" id="Servicespage">
+    <div class="knowmebox1">
+        <h1 class="stylehead1">What I Do?</h1>
+    </div>
+<div class="servicecombine">
+    <div class="servicebox1">
+        <div class="servicecombine1">
+            <p class="styleimg1"><img src="icon1.jpg"/></p>
+            <div>
+                <h4 class="para13">Custom Web Development</h4>
+                <p class="para10">Designing and building dynamic, responsive, and interactive websites using HTML, CSS, JavaScript, and popular frameworks like React, Angular, and Vue.js.</p>
+            </div>
+        </div>
+        <div class="servicecombine1">
+            <p class="styleimg1"><img src="icon1.jpg"/></p>
+            <div>
+                <h4 class="para13">Write Clean, Maintainable Code</h4>
+                <p class="para10">Use HTML, CSS, JavaScript, and frameworks like React, Angular, and Vue.js to create efficient and scalable front-end solutions.</p>
+            </div>
+        </div>
+        <div class="servicecombine1">
+            <p class="styleimg1"><img src="icon1.jpg"/></p>
+            <div>
+                <h4 class="para13">Collaborate with Cross-Functional Teams</h4>
+                <p class="para10">Work closely with designers and back-end developers to ensure cohesive user experiences and high-quality product delivery.</p>
+            </div>
+        </div>
+    </div>
+    <div class="servicebox1">
+        <div class="servicecombine1">
+            <p class="styleimg1"><img src="icon1.jpg"/></p>
+            <div>
+                <h4 class="para13">Cross-Browser Compatibility</h4>
+                <p class="para10">Ensuring websites are fully functional across various browsers (Chrome, Firefox, Safari, Edge) for a consistent user experience.</p>
+            </div>
+        </div>
+        <div class="servicecombine1">
+            <p class="styleimg1"><img src="icon1.jpg"/></p>
+            <div>
+                <h4 class="para13">Performance Optimization</h4>
+                <p class="para10">Enhancing site speed, load times, and responsiveness by applying best practices in code splitting, image optimization, and lazy loading.</p>
+            </div>
+        </div>
+        <div class="servicecombine1">
+            <p class="styleimg1"><img src="icon1.jpg"/></p>
+            <div>
+                <h4 class="para13">Stay Up-to-Date with Trends</h4>
+                <p class="para10">Continuously learn and implement the latest technologies, tools, and best practices in front-end development.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="mainbox2" id="Resumepage">
+    <div class="knowmebox1">
+        <h1 class="stylehead1">Resume</h1>
+    </div>
+    <div class="resumecombine">
+        <div class="resumehead1">
+            <h4>My Education</h4>
+        </div>
+        <div class="resumehead1 headtwo">
+            <h4>My Experience</h4>
+        </div>
+    </div>
+    <div class="resumebox1">
+        <p><span class="para1">2010 - 2013</span></p>
+        <h3>B.Sc.(Computer Science)</h3>
+        <p><span class="para2">Board/University: Kamaraj University</span></p>
+        <p>Sermathai Vasan College for Woman</p>
+        <p>Percentage: 83%</p>
+    </div>
+    <div class="resumebox1">
+        <p><span class="para1">Jun'2023 - Jun'2024</span></p>
+        <h3>Newgen Knowlege Works</h3>
+        <p><span class="para2">Client Support</span></p>
+        <p><span class="para2">Roles & Responsibility:</span></p>
+        <p>Resolve issues, provide support, maintain relationships.</p>
+    </div>
+    <div class="resumebox1">
+        <p><span class="para1">2010 - 2013</span></p>
+        <h3>HSC</h3>
+        <p><span class="para2">Board/University: State Board</span></p>
+        <p>MANU Girls High School, Madurai</p>
+        <p>Percentage: 70%</p>
+    </div>
+    <div class="resumebox1">
+        <p><span class="para1">Jun'2024 - Till Date</span></p>
+        <h3>Newgen Knowlege Works</h3>
+        <p><span class="para2">Executive Digital Prodcution</span></p>
+        <p><span class="para2">Roles & Responsibility:</span></p>
+        <p>Developing webpage using HTML, CSS, Bootstrap</p>
+    </div>
+    <div class="resumebox1">
+        <p><span class="para1">2010 - 2013</span></p>
+        <h3>SSLC</h3>
+        <p><span class="para2">Board/University: State Board</span></p>
+        <p>MANU Girls High School, Madurai</p>
+        <p>Percentage: 80%</p>
+    </div>
+    <!-- <div class="resumebox1">
+        <p><span class="para1">2010 - 2013</span></p>
+        <h3>B.Sc.(Computer Science)</h3>
+        <p><span class="para2">Board/University: Kamaraj University</span></p>
+        <p>Institution: Sermathai Vasan College for Woman</p>
+        <p>Percentage: %</p>
+    </div> -->
+    <div class="resumehead1">
+        <h4>My Skills</h4>
+    </div>
+    <div class="perclosediv">
+    <div class="percentage1">Web Design</div>
+    <div class="percentage1 per2">65%</div>
+    <div class="percentage range1"></div>
+    </div>
+    <div class="perclosediv">
+        <div class="percentage1">React Js</div>
+        <div class="percentage1 per2">70%</div>
+        <div class="percentage range2"></div>
+        </div>
+        <div class="perclosediv">
+            <div class="percentage1">HTML/CSS</div>
+            <div class="percentage1 per2">95%</div>
+            <div class="percentage range3"></div>
+            </div>
+            <div class="perclosediv">
+                <div class="percentage1">Angular Js</div>
+                <div class="percentage1 per2">60%</div>
+                <div class="percentage range4"></div>
+                </div>
+                <div class="perclosediv">
+                    <div class="percentage1">JavaScript</div>
+                    <div class="percentage1 per2">80%</div>
+                    <div class="percentage range5"></div>
+                    </div>
+                    <div class="perclosediv">
+                        <div class="percentage1">Bootstrap</div>
+                        <div class="percentage1 per2">99%</div>
+                        <div class="percentage range6"></div>
+                        </div>
+                        <p class="para7 extrapara7"><span class="hire extrahire"><a class="inherit" href="fb.png" download>Download CV</a></span></p>
+</div>
+
+<!-- <div class="mainbox1" id="Clientspeakpage">
+    <div class="knowmebox1">
+        <h1 class="stylehead1">Client Speak</h1>
+    </div>
+    <div class="clientspeakcombine">
+        <div class="clientspeak"></div>
+        <h2 class="cshead">Happy Client</h2>
+        <div class>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked checkspan1"></span>
+            <span class="fa fa-star checked checkspan2"></span>
+            <span class="fa fa-star checked checkspan3"></span>
+            <span class="fa fa-star checked checkspan4"></span>
+        </div>
+            <div class="clientspeak"></div>
+    </div>
+</div> -->
+
+<div class="mainbox" id="Contactpage">
+    <div class="knowmebox1">
+        <h1 class="stylehead1">Get in Touch</h1>
+    </div>
+    <div class="getintouchcombine">
+    <div class="getintouchbox1">
+        <h4>ADDRESS</h4>
+        <p>F2, D3-block, Lakshminivasam Apartment, Ramakrisnan Road, Mannivakam, Chennai-48.</p>
+        <p><b>Phone: </b> 8124673217</p>
+        <p><b>Phone: </b> 9150964040</p>
+        <p><b>Email: </b><span class="clrstyle"><a class="inherit" href="mailto:santhiyavel624@gmail.com"> santhiyavel624@gmail.com</a></span></p>
+        <h4>FOLLOW ME</h4>
+        <ul style="list-style-type: none;" class="olist getintoucholist">
+            <li><a href="https://www.facebook.com/" target="_blank"><img src="fb1.png" alt="Facebook Logo" title="Facebook"></a></li>
+            <li><a href="https://x.com/i/flow/login" target="_blank"><img src="twit2.png" alt="Twitter Logo" title="Twitter"></a></li>
+            <li><a href="https://www.whatsapp.com/" target="_blank"><img src="watsapp1.png" alt="Whatsapp Logo" title="Whatsapp"></a></li>
+            <li><a href="https://github.com/" target="_blank"><img src="github1.png" alt="Github Logo" title="Github"></a></li>
+        </ul>
+    </div>
+    <div class="getintouchbox2">
+    <h4>SEND US A NOTE</h4>
+    <form>
+    <div>
+        <input type="text" placeholder="   Name" class="typetext" required>
+        <input type="text" placeholder="   Email" class="typetext" required>
+    </div>
+    <textarea class="textarea" placeholder=" Tell us more about your needs......"></textarea>
+    <p class="para7 align-center"><input class="hire sendmessage" type="submit" value="Send Message"></p>
+</form>
+    </div>
+</div>
+</body>
+</html>
